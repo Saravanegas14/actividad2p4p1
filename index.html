@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> trabajo </title>
+</head>
+<div class="ttu"><h1>Registros</h1></div>
+
+
+<style>
+
+	.b{
+			position: absolute;
+		    width:400px;
+			left: 900px;
+			top: 50px;
+			height:100px;
+			background-color: #17202A;
+			color:#D2B4DE;
+            font-family: Copperplate, Papyrus, fantasy, monospace;
+			
+
+		}
+	.ttu{
+			position: absolute;
+			left: 550px;
+			top: 10px;
+			font-family: Copperplate, Papyrus, fantasy, monospace;
+			
+
+		}
+	.texto{	position: absolute;
+		    width:455px;
+			left: 400px;
+			top: 100px;
+			background-color: #F8BBD0 ;
+			font-size: 80px;
+			padding-top: 20px;
+			padding-left: 20px;
+			box-sizing: border-box;
+
+		}
+		.dife{
+			font-size: 30px;
+			color:white;
+		}
+		.hola{
+			position: absolute;
+		    width:150px;
+		    height:100px;
+			left: 25px;
+			top: 200px;
+			background-color: #B2CBF2;
+			font-family: Copperplate, Papyrus, fantasy, monospace;
+			border-radius: 20px;
+
+		}
+		.f1{
+			position: absolute;
+			left: 20px;
+			top: 50px;
+			border-radius: 20px;
+			background-color:#BA68C8;
+ border-radius: 9000px;
+  border-style: dotted;
+ 
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ color:#BA68C8;
+		}
+		.f2{
+			position: absolute;
+			left: 20px;
+			top: 100px;
+			background-color:#BA68C8;
+ border-radius: 9000px;
+  border-style: dotted;
+ 
+ font-family: Copperplate, Papyrus, fantasy, monospace;
+ color:#BA68C8;
+			
+		}
+</style>
+<body>
+	<div class="fondo"><img src="f21.jpg" height="950px" width="1350px" /></div>
+	<div id="respu" class="texto"></div>
+	<div id="sara"class="hola" onclick="agregar()"><center><h1>registrar</h1></center></div>
+	  
+
+<form>
+	<div class="f1"><input type="text" id="resultado"placeholder="Producto"></div>
+	<div class="f2"><input type="text" id="resultado1"placeholder="Precio"></div>
+	</from>
+
+<script>
+
+	function agregar(){
+		
+		sara=resultado.value;
+		sara1=resultado1.value;
+		nuevot="<div.class='dife'>"+sara+" "+sara1+" </div>";
+		conte=respu.innerHTML;
+		conte=conte+nuevot;
+		respu.innerHTML=conte;
+		console.log(conte);
+	}
+	
+
+</script>
+	
+	<a href="https://saravanegas14.github.io/actividad2p4/"><div class="b"><center><h1>Siguiente Pagina</h1></center></div></a>.
+
+
+</body>
+
+
